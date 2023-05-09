@@ -1,0 +1,11 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "user",
+      "database": "${workspaceFolder:dans-multi-pro-backend-test}/user.sqlite"
+    }
+  ]
+}
