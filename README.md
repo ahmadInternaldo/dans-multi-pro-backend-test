@@ -5,7 +5,7 @@ step:
 2. Setting first the .env.example
 3. Change name filte .env.example to .env
 4. Build with command `npm run build`
-5. for development => setting env DEVELOPMENT to true (it will sychromize the database)
+5. for development => setting env DEVELOPMENT to `true` (it will sychronize the database)
 6. for production => delete env key DEVELOPMENT
 
 
