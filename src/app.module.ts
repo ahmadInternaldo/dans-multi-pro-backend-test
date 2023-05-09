@@ -20,6 +20,8 @@ import { LoggerMiddleware } from './utils/middleware';
       type: 'sqlite',
       database: process.env.USER_DATABASE,
       entities: ['dist/**/*.entity.js'],
+      synchronize: process.env.DEVELOPMENT === 'true',
+      logging: process.env.DEVELOPMENT === 'true',
     }),
     UserModule,
   ],
